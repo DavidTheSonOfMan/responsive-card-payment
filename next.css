@@ -1,0 +1,419 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins';
+    font-weight: normal;
+    font-size: 25px;
+}
+
+
+.container{
+    width: 100%;
+    display: flex;
+    height: 600px;
+}
+
+.sect1{
+    width: 35%;
+    height: 100vh;
+    background: rgb(33,9,48);
+    background: linear-gradient(130deg, rgba(33,9,48,1) 5%, rgba(83,35,58,1) 34%, rgba(44,42,91,1) 65%, rgba(33,9,47,1) 99%);
+}
+
+.sect2{
+    width: 65%;
+    height: 100vh;
+    background-color: rgb(210, 204, 204);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.button input{
+    width: 21rem;
+    padding: 15px;
+    border-radius: 4px;
+    background-color: rgb(41, 4, 57);
+    color: aliceblue;
+    font-size: 15px;
+}
+
+.p p{
+    font-weight: lighter;
+    font-size: 15px;
+    margin-bottom: 0;
+}
+.img1{
+    width: 23.5rem;
+    position: absolute;
+    margin-top: 90px;
+    padding-left: 8.5rem;
+}
+.img2{
+    width: 23.5rem;
+    position: absolute;
+    margin-top: 20rem;
+    padding-left: 14.5rem;
+}
+
+
+
+
+/* ------------------320px------------------- */
+@media screen and (min-width: 320px) {
+    body{
+        margin: 0;
+        height: 600px;
+    }
+
+  .container{
+    display: inline-block;
+    width: 100%;
+
+  }  
+
+.sect1{
+    margin: 0;
+    width: 100%;
+    height: 150px;
+}
+.sect2{
+    margin: 0;
+    width: 100%;
+    height: 440px;
+    padding-top: 90px;
+}
+
+    .img1{
+        width: 11rem;
+        position: absolute;
+        margin: 0;
+        padding: 0;
+        padding-left: 50px;
+        margin-top: 7rem;
+        z-index: 99;
+
+    }
+    .img2{
+        width: 11rem;
+        position: absolute;
+        margin: 0;
+        padding: 0;
+        margin-left: 6rem;
+        margin-top: 2rem;
+    }
+
+    h1{
+        font-size: 18px;
+        margin-bottom: auto;
+        
+    }
+    
+    p{
+    font-weight: lighter;
+    font-size: 12px;
+    }
+    
+    .button input{
+        width: 19rem;
+        padding: 15px;
+        border-radius: 4px auto;
+        background-color: rgb(41, 4, 57);
+        color: aliceblue;
+        font-size: 11px;
+        
+    }
+    .icon img{
+        width: 50px;
+    }
+
+
+}
+
+/* ------------------375px----------------- */
+@media screen and (min-width: 375px) {
+    body{
+        margin: 0;
+    }
+
+  .container{
+    display: inline-block;
+    width: 100%;
+
+  }  
+
+.sect1{
+    margin: 0;
+    width: 100%;
+    height: 150px;
+}
+.sect2{
+    margin: 0;
+    width: 100%;
+    height: 45 0px;
+    padding-top: 100px;
+    height: 380px;
+}
+
+    .img1{
+        width: 12rem;
+        position: absolute;
+        margin: 0;
+        padding: 0;
+        padding-left: 50px;
+        margin-top: 6rem;
+        z-index: 99;
+
+    }
+    .img2{
+        width: 12rem;
+        position: absolute;
+        margin: 0;
+        padding: 0;
+        margin-left: 9.5rem;
+        margin-top: 2rem;
+    }
+
+    h1{
+        font-size: 18px;
+        margin-bottom: auto;
+        
+    }
+    
+    p{
+    font-weight: lighter;
+    font-size: 12px;
+    }
+    
+    .button input{
+        width: 19rem;
+        padding: 15px;
+        border-radius: 4px auto;
+        background-color: rgb(41, 4, 57);
+        color: aliceblue;
+        font-size: 11px;
+        
+    }
+    .icon img{
+        width: 50px;
+    }
+
+}
+
+/* --------------------425px========================== */
+@media screen and (min-width: 425px) {
+    body{
+        margin: 0;
+    }
+
+  .container{
+    display: inline-block;
+    width: 100%;
+
+  }  
+
+.sect1{
+    margin: 0;
+    width: 100%;
+    height: 250px;
+}
+.sect2{
+    margin: 0;
+    width: 100%;
+    height: 280px;
+    padding-top: 90px;
+}
+
+    .img1{
+        width: 16rem;
+        position: absolute;
+        margin: 0;
+        padding: 0;
+        padding-left: 50px;
+        margin-top: 10rem;
+        z-index: 99;
+
+    }
+    .img2{
+        width: 16rem;
+        position: absolute;
+        margin: 0;
+        padding: 0;
+        margin-left: 8.5rem;
+        margin-top: 3rem;
+    }
+    h1{
+        font-size: 18px;
+        margin-bottom: auto;
+        
+    }
+    
+    p{
+    font-weight: lighter;
+    font-size: 12px;
+    }
+    
+    .button input{
+        width: 19rem;
+        padding: 15px;
+        border-radius: 4px auto;
+        background-color: rgb(41, 4, 57);
+        color: aliceblue;
+        font-size: 11px;
+        
+    }
+    .icon img{
+        width: 50px;
+    }
+
+}
+
+
+
+/* ----------------768px--------------------- */
+@media screen and (min-width:768px) {
+    .img1{
+        width: 19.5rem;
+        padding-left: 300px;
+    }
+    .img2{
+        width: 19.5rem;
+        margin-left: 7rem;
+    }
+
+
+    .sect1{
+        height: 18rem;
+        /* padding-top: 50px; */
+    }
+
+   .sect2{
+    height: 400px;
+    padding-top: 80px;
+   }
+
+   h1{
+    font-size: 30px;
+    margin-bottom: auto;
+    
+}
+
+p{
+font-weight: lighter;
+font-size: 20px;
+}
+
+.icon img{
+    width: 70px;
+}
+
+.button input{
+    width: 21rem;
+    padding: 15px;
+    border-radius: 4px auto;
+    background-color: rgb(41, 4, 57);
+    color: aliceblue;
+    font-size: 15px;
+    
+}
+    
+}
+/* -----------------1024px-------------------------------------- */
+
+@media screen and (min-width:1024px) {
+
+    .container{
+        width: 100%;
+        height: 600px;
+        display: flex;
+        margin: 0;
+        padding: 0;
+    }
+    
+    .sect1{
+        width: 35%;
+        height: 100%;
+        background: rgb(33,9,48);
+        background: linear-gradient(130deg, rgba(33,9,48,1) 5%, rgba(83,35,58,1) 34%, rgba(44,42,91,1) 65%, rgba(33,9,47,1) 99%);
+    }
+    
+    .sect2{
+        width: 65%;
+        height:calc(100% - 100px);
+        background-color: rgb(210, 200, 200);
+        padding-top: 100px;
+        padding-left: 30px;
+    }
+
+    .img1{
+        width: 22.5rem;
+        position: absolute;
+        margin-top: 90px;
+        padding-left: 3rem;
+    }
+    .img2{
+        width: 22.5rem;
+        position: absolute;
+        margin-top: 20rem;
+        padding-left: 1.5rem;
+    }
+    
+    h1{
+        font-size: 30px;
+        margin-bottom: auto;
+        
+    }
+    
+   p{
+    font-weight: lighter;
+    font-size: 20px;
+   }
+   .button input{
+    width: 21rem;
+    padding: 15px;
+    border-radius: 4px;
+    background-color: rgb(41, 4, 57);
+    color: aliceblue;
+    font-size: 15px;
+}
+
+.icon img{
+    width: 90px;
+}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
